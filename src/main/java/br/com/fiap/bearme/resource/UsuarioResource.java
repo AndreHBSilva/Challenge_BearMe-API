@@ -89,7 +89,6 @@ public class UsuarioResource {
 	}
 	
 	@PUT
-	@Path("/{email}")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response editar(UsuarioTO usuarioTO, @Context UriInfo uriInfo) {
@@ -114,7 +113,6 @@ public class UsuarioResource {
 	}
 	
 	@DELETE
-	@Path("/{email}")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response deletar(UsuarioTO usuarioTO, @Context UriInfo uriInfo) {

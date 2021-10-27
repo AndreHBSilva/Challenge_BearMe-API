@@ -1,0 +1,17 @@
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\bean\Conquista.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\exception\DadoInvalidoException.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\bean\TarefaRealizada.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\bean\Usuario.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\exception\EmailNotFoundException.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\resource\UsuarioResource.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\bean\Tarefa.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\dao\TarefaDao.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\factory\ConnectionFactory.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\exception\IdNotFoundException.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\resource\UsuarioTO.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\dao\UsuarioDao.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\dao\TarefaRealizadaDao.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\dao\ConquistaDao.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\bo\UsuarioBO.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\bean\RespostaAPI.java
+C:\Users\andre.hugo.b.silva\Desktop\Projetos\Pessoais\Java\BearMeAPI\src\main\java\br\com\fiap\bearme\exception\EmailRegisteredException.java

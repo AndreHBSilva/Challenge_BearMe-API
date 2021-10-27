@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "d3dfe348-7d3e-4246-b86a-92c9cdd148fd",
+		"name": "BearMe-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Editar usuário",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\": \"andreH\",\r\n    \"email\": \"andresilva.bs@gmail.com\",\r\n    \"senha\": \"1234\",\r\n    \"dataNascimento\": \"26/10/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://bearme-api.herokuapp.com/rest/usuario",
+					"protocol": "https",
+					"host": [
+						"bearme-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"rest",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\": \"andreH\",\r\n    \"email\": \"andresilva.bs@gmail.com\",\r\n    \"senha\": \"1234\",\r\n    \"dataNascimento\": \"26/10/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://bearme-api.herokuapp.com/rest/usuario",
+					"protocol": "https",
+					"host": [
+						"bearme-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"rest",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registrar usuário",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\": \"andreH\",\r\n    \"email\": \"andresilva.bs@gmail.com\",\r\n    \"senha\": \"1234\",\r\n    \"dataNascimento\": \"26/10/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://bearme-api.herokuapp.com/rest/usuario",
+					"protocol": "https",
+					"host": [
+						"bearme-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"rest",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar usuário",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\": \"andreH\",\r\n    \"email\": \"andresilva.bs@gmail.com\",\r\n    \"senha\": \"1234\",\r\n    \"dataNascimento\": \"26/10/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://bearme-api.herokuapp.com/rest/usuario",
+					"protocol": "https",
+					"host": [
+						"bearme-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"rest",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
