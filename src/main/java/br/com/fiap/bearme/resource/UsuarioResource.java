@@ -41,6 +41,7 @@ public class UsuarioResource {
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response login(UsuarioTO usuarioTO, @Context UriInfo uriInfo) {
+		@SuppressWarnings("unused")
 		UriBuilder builder = uriInfo.getAbsolutePathBuilder();
 		Usuario usuario = new Usuario(usuarioTO.getNickname(), usuarioTO.getEmail(), usuarioTO.getSenha(), LocalDate.parse(usuarioTO.getDataNascimento(), DateTimeFormatter.ofPattern("dd/MM/yyyy")));
 		RespostaAPI resposta = new RespostaAPI();
@@ -66,6 +67,7 @@ public class UsuarioResource {
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response registrar(UsuarioTO usuarioTO, @Context UriInfo uriInfo) {
+		@SuppressWarnings("unused")
 		UriBuilder builder = uriInfo.getAbsolutePathBuilder();
 		Usuario usuario = new Usuario(usuarioTO.getNickname(), usuarioTO.getEmail(), usuarioTO.getSenha(), LocalDate.parse(usuarioTO.getDataNascimento(), DateTimeFormatter.ofPattern("dd/MM/yyyy")));
 		RespostaAPI resposta = new RespostaAPI();

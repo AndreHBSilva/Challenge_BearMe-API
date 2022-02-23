@@ -27,8 +27,8 @@ public class ConnectionFactory {
 
 		 Connection connection = DriverManager.getConnection(
 				"jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL", 
-				"RM86692", 
-				"171189"
+				"", 
+				""
 				);
 		 
 		 return connection;
