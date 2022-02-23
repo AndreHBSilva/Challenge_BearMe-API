@@ -8,7 +8,7 @@ O JSON Postman possui os endpoints disponíveis na API. Atualmente está com o e
 
 ## Autores do Projeto
 
-[André Silva](https://github.com/AndreHBSilva)
-[Matheus Ferreira](https://github.com/96matt)
-[Thales Castellani](https://github.com/thalesCastellani)
+[André Silva](https://github.com/AndreHBSilva)\
+[Matheus Ferreira](https://github.com/96matt)\
+[Thales Castellani](https://github.com/thalesCastellani)\
 [Oswaldo Moreira](https://github.com/ozMoreira)
